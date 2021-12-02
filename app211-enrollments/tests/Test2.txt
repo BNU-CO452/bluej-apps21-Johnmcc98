@@ -1,0 +1,28 @@
+CO452.print();
+ Module Code: CO452: Programming Concepts Credit Score:  0
+
+Module CO452 = new Module("CO452", "Programming Concepts");
+CO452.print();
+ Module Code: CO452: Programming Concepts Credit Score:  15
+
+Course Games_Development = new Course("BT1GDV1", "Games Development");
+Games_Development.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1GDV1: Games Development
+
+    Exception occurred.
+Games_Development.addModule(CO452);
+Student John = new Student("John McCormack", 22141429);
+John.enrol(Games_Development);
+Games_Development.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: BT1GDV1: Games Development
+
+ Module Code: CO452: Programming Concepts Credit Score:  15
+

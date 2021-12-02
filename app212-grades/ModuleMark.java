@@ -3,6 +3,7 @@
  * Write a description of class ModuleMark here.
  *
  * @author Derek Peacock and Nicholas Day
+ * @author John McCormack
  * @version 2021-08-18
  */
 public class ModuleMark
@@ -19,6 +20,9 @@ public class ModuleMark
         this.module = module;
     }
     
+    /**
+     * gets the value for the mark entered
+     */
     public int getValue()
     {
         return mark;
@@ -40,11 +44,17 @@ public class ModuleMark
         }
     }
     
+    /**
+     * sets the mark for the entered mark
+     */
     public void setMark(int mark)
     {
         this.mark = mark;
     }
     
+    /**
+     * returns te module for mark entered
+     */
     public Module getModule()
     {
         return module;

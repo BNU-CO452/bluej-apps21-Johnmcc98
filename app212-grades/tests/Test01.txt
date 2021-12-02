@@ -1,0 +1,30 @@
+john.print();
+ Student ID: 22141429, John
+john.enrol(games_development);
+john.printCourse();
+ Student ID: 22141429, John
+
+ Course BT1GDV1: Games Development
+
+Module co452 = new Module("CO452", "Programming Concepts");
+games_development.addModule(co452);
+ModuleMark johnCO452Mark = new ModuleMark(co452);
+johnCO452Mark.setMark(58);
+john.addMark(johnCO452Mark);
+john.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22141429, John
+
+ Course BT1GDV1: Games Development
+
+
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!

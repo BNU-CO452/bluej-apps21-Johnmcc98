@@ -1,0 +1,29 @@
+john.enrol(gamesdevelopment);
+john.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22141429, John
+
+ Course BT1GDV1: BSc Games Development
+
+ CO452: 	Programming Concepts	  15 credits
+ CO450: 	Computer Architectures	  15 credits
+ CO459: 	Game Design	  15 credits
+ CO461: 	3D Modelling	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	78	A
+
+ CO450: 	Computer Architectures	  0	10	F
+
+ CO459: 	Game Design	  0	1	F
+
+ CO461: 	3D Modelling	  0	23	F
+
+
+ Final Course Grade = F

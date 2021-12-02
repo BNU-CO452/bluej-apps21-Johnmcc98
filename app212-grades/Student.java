@@ -4,6 +4,7 @@ import java.util.*;
  * It holds the student details relevant in our context.
  * 
  * @author Michael Kölling and David Barnes
+ * @author John McCormack
  * Modified by Derek Peacock & Nicholas Day
  * @version 2021-08-18
  */
@@ -17,6 +18,8 @@ public class Student
     private Course course;
     // The marks awarded for the modules on the course
     private ArrayList<ModuleMark> marks;
+    // The randomiser for the marks to be given to students
+    private Random randomMark;
     
     /**
      * This constructor creates a new student with a
@@ -24,7 +27,7 @@ public class Student
      */
     public Student()
     {
-        this("Derek", 12345678);
+        this("John", 22141429);
     }
     
     /**
@@ -34,10 +37,14 @@ public class Student
     {
         this.name = name;
         this.id = id;
-        
+        randomMark = new Random();
         marks = new ArrayList<ModuleMark>();
     }
 
+    
+    /**
+     * Adds the mark given to the module mark
+     */
     public void addMark(ModuleMark mark)
     {
         marks.add(mark);
@@ -49,7 +56,7 @@ public class Student
      */
     public void awardMark(String moduleCode, int value)
     {
-
+        
     }
     
     /**
@@ -67,7 +74,16 @@ public class Student
      */
     public void awardTestMarks()
     {
-        
+        int value = 55;
+        for(Module module : course.modules)
+        {
+            ModuleMark mark = new ModuleMark(module);
+            mark.setMark(randomMark.nextInt(100));
+            
+            //value = value - 10;
+            
+            marks.add(mark);
+        }
     }
     
     /**
@@ -102,11 +118,24 @@ public class Student
         course.print();
     }
     
+    /**
+     * Checks the module marks it will loop and print out the
+     * information associated with it.
+     */
     private void printModules()
     {
-
+        for(ModuleMark mark: marks)
+        {
+            mark.print();
+            System.out.println("\t" + course.convertToGrade(mark.getValue()));
+            
+        }
     }
     
+    
+    /**
+     * Prints the public transcript for the student
+     */
     public void printTranscript()
     {
         System.out.println(" ------------------------------------");
@@ -122,7 +151,8 @@ public class Student
         System.out.println(" Code \t Module \t\tCredit\t Mark \t Grade");
         System.out.println(" ---- \t -------------------- \t ------\t ---- \t -----");
         
-       
+        printModules();
+        
         Grades finalGrade = course.calculateGrade(marks);
         
         System.out.println();

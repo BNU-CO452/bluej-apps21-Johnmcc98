@@ -5,6 +5,7 @@ import java.util.*;
  * at BNU together with a list of student who are enrolled
  *
  * @author Derek Peacock
+ * @author John McCormack
  * @version 1.0 14/07/2021
  */
 public class Course
@@ -13,6 +14,8 @@ public class Course
     private String code;
     // The full title including qualification and subject
     private String title;
+    // The module which belongs to the course
+    private Module module;
     
     /**
      * Create a Course with a maximum number of enrolments. 
@@ -35,6 +38,8 @@ public class Course
         
         System.out.println(" Course Code: " + code + ": " + title);
         System.out.println();
+        
+        module.print();
     }
     
     /**
@@ -47,4 +52,16 @@ public class Course
         System.out.println(" --------------------------------");
         System.out.println();
     }
+    
+      /**
+     * Adds the module to the course.
+     * 
+     */
+    public void addModule (Module module)
+    {
+        //
+        this.module = module;
+    }
 }
+
+  
