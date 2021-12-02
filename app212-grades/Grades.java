@@ -18,11 +18,17 @@ public enum Grades
     
     private final int value;
     
+    /**
+     * converts the grades to a value
+     */
     private Grades(int value)
     {
         this.value = value;
     }
     
+    /**
+     * returns the value of the grades
+     */
     public int getValue()
     {
         return value;

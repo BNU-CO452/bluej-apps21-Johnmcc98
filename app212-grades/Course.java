@@ -18,6 +18,9 @@ public class Course
     
     private Grades finalGrade;
      
+    /**
+     * The objects of the course class manually entered.
+     */
     public Course()
     {
         this("BT1GDV1", "BSc Games Development");
@@ -54,6 +57,10 @@ public class Course
         addModule(co461);
     }
     
+    /**
+     * Checks how many modules are present within the array and 
+     * if less than the max number held will add it.
+     */
     public void addModule(Module module)
     {
         if(modules.size() < MAXN_MODULES)
@@ -62,7 +69,9 @@ public class Course
         }
     }
     
-    /**
+    /** 
+     * Checks tha mark entered and converts into a grade 
+     * to be displayed.
      * 
      */
     public Grades convertToGrade(int mark)
@@ -115,7 +124,7 @@ public class Course
     }
     
     /**
-     * Print the course's four modules
+     * Print the course's four modules and credits.
      */
     public void printModules()
     {

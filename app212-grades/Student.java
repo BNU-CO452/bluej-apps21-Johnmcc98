@@ -18,7 +18,7 @@ public class Student
     private Course course;
     // The marks awarded for the modules on the course
     private ArrayList<ModuleMark> marks;
-    
+    // The randomiser for the marks to be given to students
     private Random randomMark;
     
     /**
@@ -41,6 +41,10 @@ public class Student
         marks = new ArrayList<ModuleMark>();
     }
 
+    
+    /**
+     * Adds the mark given to the module mark
+     */
     public void addMark(ModuleMark mark)
     {
         marks.add(mark);
@@ -114,6 +118,10 @@ public class Student
         course.print();
     }
     
+    /**
+     * Checks the module marks it will loop and print out the
+     * information associated with it.
+     */
     private void printModules()
     {
         for(ModuleMark mark: marks)
@@ -124,6 +132,10 @@ public class Student
         }
     }
     
+    
+    /**
+     * Prints the public transcript for the student
+     */
     public void printTranscript()
     {
         System.out.println(" ------------------------------------");
