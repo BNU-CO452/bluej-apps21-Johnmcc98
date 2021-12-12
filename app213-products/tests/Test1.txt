@@ -1,0 +1,23 @@
+videogame1.print();
+ ID 101: Video Game 1 stock level: 0
+videogame1.decreaseQuantity(1);
+videogame1.print();
+ ID 101: Video Game 1 stock level: 0
+videogame1.increaseQuantity(7);
+videogame1.print();
+ ID 101: Video Game 1 stock level: 7
+videogame1.decreaseQuantity(3);
+videogame1.print();
+ ID 101: Video Game 1 stock level: 4
+Product videogame2 = new Product(102, "Video Game 2");
+StockList stock = new StockList();
+stock.add(videogame1);
+stock.add(videogame2);
+stock.print();
+
+ McCormack's Stock List
+ ====================
+
+ ID 101: Video Game 1 stock level: 4
+ ID 102: Video Game 2 stock level: 0
+
