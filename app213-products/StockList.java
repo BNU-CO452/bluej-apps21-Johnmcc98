@@ -81,6 +81,46 @@ public class StockList
     }
     
     /**
+     * Find a product to match the product name,
+     * if not found return null
+     */
+    public Product findName(String productName)
+    {
+        for(Product product : stock)
+        {
+            if(product.getName() == productName)
+            System.out.println(product);
+        }
+        
+    return null;
+    }
+    
+    /**
+     * Removes a product based on the productID
+     * that is entered.
+     */ 
+    public void removeProducts(int productID)
+    {
+        Product product = findProduct(productID);
+        stock.remove(product);
+    } 
+    
+    
+    /**
+     * Removes a product based on the productID
+     * that is entered.
+     */ 
+    public void checkstockProducts(int productID)
+    {
+        for(Product product : stock)
+        {
+        if(product.getQuantity() <100)
+        System.out.println( "This product " + product + " has less than 100 copies in stock!");
+        }
+    } 
+    
+    
+    /**
      * Sell one of the given product.
      * Show the before and after status of the product.
      * @param id The ID of the product being sold.
@@ -112,7 +152,7 @@ public class StockList
             }
             else
             {
-                System.out.println(product.getName() + "cannot be sold in the amount you are trying becuase you only have " + product.getQuantity());
+                System.out.println(product.getName() + " cannot be sold in the amount you are trying becuase you only have  " + product.getQuantity());
             }
         }
         else
@@ -165,6 +205,10 @@ public class StockList
         System.out.println();
     }
     
+    /**
+     * Print out the heading to go with the
+     * stock list.
+     */
     public void printHeading()
     {
         System.out.println();

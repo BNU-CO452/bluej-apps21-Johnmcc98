@@ -58,7 +58,16 @@ public class StockDemo
         stock.print();        
 
         sellProducts();
-        stock.print();        
+        stock.print();
+        
+        findProducts();
+        stock.print();
+        
+        removeProducts();
+        stock.print();
+        
+        checkstockProducts();
+        stock.print();
     }
     
     private void buyProducts()
@@ -75,5 +84,29 @@ public class StockDemo
     {
         stock.sellProduct(i, random.nextInt(1001));
     }
-    }   
+    } 
+    
+     private void removeProducts()
+    {
+    {
+        System.out.println("Product 106 has been removed");
+        stock.removeProducts(106);
+    }
+    } 
+    
+     private void findProducts()
+    {
+    {
+        System.out.println("Search for game by name");
+        stock.findName("Red Dead Redemption 2");
+    }
+    } 
+    
+     private void checkstockProducts()
+    {
+       for(int i = 101; i < 110; i++)
+    {
+        stock.checkstockProducts(i);
+    }
+    } 
 }

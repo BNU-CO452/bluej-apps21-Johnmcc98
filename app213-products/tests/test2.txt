@@ -1,0 +1,128 @@
+StockDemo stockDem2 = new StockDemo();
+
+ McCormack's Stock List
+ ====================
+
+ ID 101: Red Dead Redemption 2 stock level: 0
+ ID 102: Granblue Fantasy Versus stock level: 0
+ ID 103: Demon Slayer The Hinokami Chronicles stock level: 0
+ ID 104: First Class Trouble stock level: 0
+ ID 105: Guilty Gear Strive stock level: 0
+ ID 106: Blazblue Centralfiction stock level: 0
+ ID 107: Elden Ring stock level: 0
+ ID 108: Bloodborne stock level: 0
+ ID 109: Dark Souls 3 stock level: 0
+ ID 110: Genshin Impact stock level: 0
+
+Bought 331 of Red Dead Redemption 2
+Bought 464 of Granblue Fantasy Versus
+Bought 336 of Demon Slayer The Hinokami Chronicles
+Bought 663 of First Class Trouble
+Bought 971 of Guilty Gear Strive
+Bought 469 of Blazblue Centralfiction
+Bought 974 of Elden Ring
+Bought 981 of Bloodborne
+Bought 732 of Dark Souls 3
+
+ McCormack's Stock List
+ ====================
+
+ ID 101: Red Dead Redemption 2 stock level: 331
+ ID 102: Granblue Fantasy Versus stock level: 464
+ ID 103: Demon Slayer The Hinokami Chronicles stock level: 336
+ ID 104: First Class Trouble stock level: 663
+ ID 105: Guilty Gear Strive stock level: 971
+ ID 106: Blazblue Centralfiction stock level: 469
+ ID 107: Elden Ring stock level: 974
+ ID 108: Bloodborne stock level: 981
+ ID 109: Dark Souls 3 stock level: 732
+ ID 110: Genshin Impact stock level: 0
+
+Red Dead Redemption 2 cannot be sold in the amount you are trying becuase you only have  331
+Granblue Fantasy Versus cannot be sold in the amount you are trying becuase you only have  464
+Sold 319 copy's of Demon Slayer The Hinokami Chronicles
+First Class Trouble cannot be sold in the amount you are trying becuase you only have  663
+Sold 467 copy's of Guilty Gear Strive
+Sold 33 copy's of Blazblue Centralfiction
+Sold 509 copy's of Elden Ring
+Sold 626 copy's of Bloodborne
+Dark Souls 3 cannot be sold in the amount you are trying becuase you only have  732
+
+ McCormack's Stock List
+ ====================
+
+ ID 101: Red Dead Redemption 2 stock level: 331
+ ID 102: Granblue Fantasy Versus stock level: 464
+ ID 103: Demon Slayer The Hinokami Chronicles stock level: 17
+ ID 104: First Class Trouble stock level: 663
+ ID 105: Guilty Gear Strive stock level: 504
+ ID 106: Blazblue Centralfiction stock level: 436
+ ID 107: Elden Ring stock level: 465
+ ID 108: Bloodborne stock level: 355
+ ID 109: Dark Souls 3 stock level: 732
+ ID 110: Genshin Impact stock level: 0
+
+Search for game by name
+ ID 101: Red Dead Redemption 2 stock level: 331
+
+ McCormack's Stock List
+ ====================
+
+ ID 101: Red Dead Redemption 2 stock level: 331
+ ID 102: Granblue Fantasy Versus stock level: 464
+ ID 103: Demon Slayer The Hinokami Chronicles stock level: 17
+ ID 104: First Class Trouble stock level: 663
+ ID 105: Guilty Gear Strive stock level: 504
+ ID 106: Blazblue Centralfiction stock level: 436
+ ID 107: Elden Ring stock level: 465
+ ID 108: Bloodborne stock level: 355
+ ID 109: Dark Souls 3 stock level: 732
+ ID 110: Genshin Impact stock level: 0
+
+Product 106 has been removed
+
+ McCormack's Stock List
+ ====================
+
+ ID 101: Red Dead Redemption 2 stock level: 331
+ ID 102: Granblue Fantasy Versus stock level: 464
+ ID 103: Demon Slayer The Hinokami Chronicles stock level: 17
+ ID 104: First Class Trouble stock level: 663
+ ID 105: Guilty Gear Strive stock level: 504
+ ID 107: Elden Ring stock level: 465
+ ID 108: Bloodborne stock level: 355
+ ID 109: Dark Souls 3 stock level: 732
+ ID 110: Genshin Impact stock level: 0
+
+This product  ID 103: Demon Slayer The Hinokami Chronicles stock level: 17 has less than 100 copies in stock!
+This product  ID 110: Genshin Impact stock level: 0 has less than 100 copies in stock!
+This product  ID 103: Demon Slayer The Hinokami Chronicles stock level: 17 has less than 100 copies in stock!
+This product  ID 110: Genshin Impact stock level: 0 has less than 100 copies in stock!
+This product  ID 103: Demon Slayer The Hinokami Chronicles stock level: 17 has less than 100 copies in stock!
+This product  ID 110: Genshin Impact stock level: 0 has less than 100 copies in stock!
+This product  ID 103: Demon Slayer The Hinokami Chronicles stock level: 17 has less than 100 copies in stock!
+This product  ID 110: Genshin Impact stock level: 0 has less than 100 copies in stock!
+This product  ID 103: Demon Slayer The Hinokami Chronicles stock level: 17 has less than 100 copies in stock!
+This product  ID 110: Genshin Impact stock level: 0 has less than 100 copies in stock!
+This product  ID 103: Demon Slayer The Hinokami Chronicles stock level: 17 has less than 100 copies in stock!
+This product  ID 110: Genshin Impact stock level: 0 has less than 100 copies in stock!
+This product  ID 103: Demon Slayer The Hinokami Chronicles stock level: 17 has less than 100 copies in stock!
+This product  ID 110: Genshin Impact stock level: 0 has less than 100 copies in stock!
+This product  ID 103: Demon Slayer The Hinokami Chronicles stock level: 17 has less than 100 copies in stock!
+This product  ID 110: Genshin Impact stock level: 0 has less than 100 copies in stock!
+This product  ID 103: Demon Slayer The Hinokami Chronicles stock level: 17 has less than 100 copies in stock!
+This product  ID 110: Genshin Impact stock level: 0 has less than 100 copies in stock!
+
+ McCormack's Stock List
+ ====================
+
+ ID 101: Red Dead Redemption 2 stock level: 331
+ ID 102: Granblue Fantasy Versus stock level: 464
+ ID 103: Demon Slayer The Hinokami Chronicles stock level: 17
+ ID 104: First Class Trouble stock level: 663
+ ID 105: Guilty Gear Strive stock level: 504
+ ID 107: Elden Ring stock level: 465
+ ID 108: Bloodborne stock level: 355
+ ID 109: Dark Souls 3 stock level: 732
+ ID 110: Genshin Impact stock level: 0
+

@@ -52,16 +52,27 @@ public class Product
         return quantity;
     }
 
+    /**
+     * @set The quantity in stock.
+     */
     public void setQuantity(int quantity)
     {
         this.quantity = quantity;
     }
     
+    /**
+     * @choose how much quantity to increase
+     * in stock.
+     */
     public void increaseQuantity(int amount)
     {
         quantity = quantity + amount;
     }
     
+    /**
+     * @choose how much quantity to decrease
+     * in stock.
+     */
     public void decreaseQuantity(int amount)
     {
         if(quantity >= amount)
