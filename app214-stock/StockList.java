@@ -107,7 +107,7 @@ public class StockList
     
     
     /**
-     * Removes a product based on the productID
+     * Checks the stock based on the productID
      * that is entered.
      */ 
     public void checkstockProducts(int productID)

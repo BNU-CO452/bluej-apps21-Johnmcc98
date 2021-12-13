@@ -21,7 +21,8 @@ public class StockApp
         reader = new InputReader();
         
         stock = new StockList();
-        //StockDemo demo = new StockDemo(stock);
+        
+        //StockDemo demo = new StockDemo(stock);   
     }
 
     /**
@@ -43,6 +44,10 @@ public class StockApp
         }
     }
     
+    /**
+     *  Runs a method based on the input
+     *  entered by the user.
+     */
     private boolean executeChoice(String choice)
     {
         if(choice.equals("quit"))
@@ -53,21 +58,64 @@ public class StockApp
         else if(choice.equals("add"))
         {
             int id = reader.getInt("Please enter the ID");
+            Product find = stock.findProduct(id);
+            if(find == null)
+        {
             String name = reader.getString("Please enter the name of the product");
             Product product = new Product(id, name);
             stock.add(product);
-            System.out.println("Product " + product.getID() + ", " + product.getName() + "Has been added to the stock list");
+            System.out.println("Product " + product.getID() + ", " + product.getName() + " Has been added to the stock list");
         }
+        else
+        {
+            System.out.println("This ID is aready in use, please select a different ID to use");
+        }
+        }
+    
         else if(choice.equals("remove"))
         {
             int id = reader.getInt("Please enter the ID");
+            Product find = stock.findProduct(id);
+            if(find == null)
+        {
+            System.out.println("This product ID does not exist");
+        }
+        else
+        {
             stock.removeProducts(id);
-            System.out.println("Product " + id +  "Has been removed from the stock list");
+            System.out.println("Product " + id +  " Has been removed from the stock list");
+        }
         }
         else if(choice.equals("print"))
         {
             System.out.println("Here is the current stock");
             stock.print();
+        
+        }
+        else if(choice.equals("buy"))
+       {
+            int id = reader.getInt("Please enter the ID");
+            int amount = reader.getInt("Please enter the amount you would like to buy");
+           
+            {
+            stock.buyProduct(id,amount);
+            System.out.println("This product has been purchased " + amount + " times");
+            }
+        }
+         else if(choice.equals("sell"))
+       {
+            int id = reader.getInt("Please enter the ID");
+            int amount = reader.getInt("Please enter the amount you would like to sell");
+           
+            {
+            stock.sellProduct(id,amount);
+            System.out.println("This product has been sold " + amount + " times");
+            }
+        }
+        else if (choice.equals("search"))
+        {
+            String keyword = reader.getString("Please enter a keyword to search for");
+            stock.findName(keyword);
         }
         
         return false;
@@ -79,10 +127,13 @@ public class StockApp
     private void printMenuChoices()
     {
         System.out.println();
-        System.out.println("    Add:        Add a new product");
-        System.out.println("    Remove:     Remove an old product");
-        System.out.println("    Print:      Print all products");
-        System.out.println("    Quit:       Quit the program");
+        System.out.println("    Add:                Add a new product");
+        System.out.println("    Remove:             Remove an old product");
+        System.out.println("    Print:              Print all products");
+        System.out.println("    Buy :               Buy a product");
+        System.out.println("    Sell :              Sell a product");
+        System.out.println("    Search:             Search for a product");
+        System.out.println("    Quit:               Quit the program");
         System.out.println();        
     }
     

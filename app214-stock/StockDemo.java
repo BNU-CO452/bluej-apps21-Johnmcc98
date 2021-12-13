@@ -15,6 +15,7 @@ public class StockDemo
     
     private Random random;
 
+
     /**
      * Create a StockManager and populate it with at least
      * 10 sample products.

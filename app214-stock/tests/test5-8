@@ -1,0 +1,111 @@
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by John McCormack
+********************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Print:              Print all products
+    Buy :               Buy a product
+    Sell :              Sell a product
+    Search:             Search for a product
+    Quit:               Quit the program
+
+Please enter your choice > remove
+Please enter the ID
+101
+This product ID does not exist
+********************************
+  App21-04: Stock Application 
+      by John McCormack
+********************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Print:              Print all products
+    Buy :               Buy a product
+    Sell :              Sell a product
+    Search:             Search for a product
+    Quit:               Quit the program
+
+Please enter your choice > add
+Please enter the ID
+111
+Please enter the name of the productFifa 22
+Product 111, Fifa 22 Has been added to the stock list
+********************************
+  App21-04: Stock Application 
+      by John McCormack
+********************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Print:              Print all products
+    Buy :               Buy a product
+    Sell :              Sell a product
+    Search:             Search for a product
+    Quit:               Quit the program
+
+Please enter your choice > buy
+Please enter the ID
+111
+Please enter the amount you would like to buy
+7
+Bought 7 of Fifa 22
+This product has been purchased 7 times
+********************************
+  App21-04: Stock Application 
+      by John McCormack
+********************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Print:              Print all products
+    Buy :               Buy a product
+    Sell :              Sell a product
+    Search:             Search for a product
+    Quit:               Quit the program
+
+Please enter your choice > sell
+Please enter the ID
+111
+Please enter the amount you would like to sell
+6
+Sold 6 copy's of Fifa 22
+This product has been sold 6 times
+********************************
+  App21-04: Stock Application 
+      by John McCormack
+********************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Print:              Print all products
+    Buy :               Buy a product
+    Sell :              Sell a product
+    Search:             Search for a product
+    Quit:               Quit the program
+
+Please enter your choice > print
+Here is the current stock
+
+ McCormack's Stock List
+ ====================
+
+ ID 111: Fifa 22 stock level: 1
+
+********************************
+  App21-04: Stock Application 
+      by John McCormack
+********************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Print:              Print all products
+    Buy :               Buy a product
+    Sell :              Sell a product
+    Search:             Search for a product
+    Quit:               Quit the program
+
+Please enter your choice > 

@@ -1,0 +1,76 @@
+Program.main({ });
+********************************
+  App21-04: Stock Application 
+      by John McCormack
+********************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Print:              Print all products
+    Buy :               Buy a product
+    Sell :              Sell a product
+    Search:             Search for a product
+    Quit:               Quit the program
+
+Please enter your choice > add
+Please enter the ID
+101
+Please enter the name of the productFifa 2
+Product 101, Fifa 2 Has been added to the stock list
+********************************
+  App21-04: Stock Application 
+      by John McCormack
+********************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Print:              Print all products
+    Buy :               Buy a product
+    Sell :              Sell a product
+    Search:             Search for a product
+    Quit:               Quit the program
+
+Please enter your choice > 
+
+Your input is blank!
+
+Please enter your choice > add
+Please enter the ID
+101
+This ID is aready in use, please select a different ID to use
+********************************
+  App21-04: Stock Application 
+      by John McCormack
+********************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Print:              Print all products
+    Buy :               Buy a product
+    Sell :              Sell a product
+    Search:             Search for a product
+    Quit:               Quit the program
+
+Please enter your choice > print
+Here is the current stock
+
+ McCormack's Stock List
+ ====================
+
+ ID 101: Fifa 2 stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by John McCormack
+********************************
+
+    Add:                Add a new product
+    Remove:             Remove an old product
+    Print:              Print all products
+    Buy :               Buy a product
+    Sell :              Sell a product
+    Search:             Search for a product
+    Quit:               Quit the program
+
+Please enter your choice > quit
+You have quit the application
