@@ -47,6 +47,7 @@ public class StockApp
     {
         if(choice.equals("quit"))
         {
+            System.out.println("You have quit the application");
             return true;
         }
         else if(choice.equals("add"))
@@ -57,8 +58,15 @@ public class StockApp
             stock.add(product);
             System.out.println("Product " + product.getID() + ", " + product.getName() + "Has been added to the stock list");
         }
+        else if(choice.equals("remove"))
+        {
+            int id = reader.getInt("Please enter the ID");
+            stock.removeProducts(id);
+            System.out.println("Product " + id +  "Has been removed from the stock list");
+        }
         else if(choice.equals("print"))
         {
+            System.out.println("Here is the current stock");
             stock.print();
         }
         
